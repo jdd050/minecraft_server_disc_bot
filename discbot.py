@@ -86,7 +86,7 @@ async def start_server(interaction: discord.Interaction):
         await interaction.response.send_message("Server failed to start! Contact <@315896399424389120>")
         return
     else:
-        await interaction.response.send_message("Server successfully started!")
+        await interaction.response.send_message("Server successfully started! Please wait a bit for it to be ready")
     return
 
 # Stops the minecraft server (if it is running)
