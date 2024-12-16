@@ -123,7 +123,7 @@ class MinecraftServer:
 
         # Send the stop command
         self.send_command("stop")
-        time.sleep(5)  # Give the server time to stop
+        time.sleep(2)  # Give the server time to stop
         
         # Close the command prompt window
         try:
